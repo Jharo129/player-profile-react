@@ -12,5 +12,138 @@
     "team": "ASTROS - IL",
     "bats": "R",
     "throws": "R",
-    "agent": "Scott Boras"
+    "agent": "Scott Boras",
+    "bio": [
+        {
+            "title": "Personal",
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odio accusamus velit, fuga dignissimos iste sit alias nihil laudantium, facilis aliquam sunt. Ab ducimus quaerat enim consectetur ipsum mollitia eveniet."
+        },
+        {
+            "title": "Batting",
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odio accusamus velit, fuga dignissimos iste sit alias nihil laudantium, facilis aliquam sunt. Ab ducimus quaerat enim consectetur ipsum mollitia eveniet."
+        },
+        {
+            "title": "Running",
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odio accusamus velit, fuga dignissimos iste sit alias nihil laudantium, facilis aliquam sunt. Ab ducimus quaerat enim consectetur ipsum mollitia eveniet."
+        },
+        {
+            "title": "Injury Report",
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odio accusamus velit, fuga dignissimos iste sit alias nihil laudantium, facilis aliquam sunt. Ab ducimus quaerat enim consectetur ipsum mollitia eveniet."
+        },
+        {
+            "title": "Personal",
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odio accusamus velit, fuga dignissimos iste sit alias nihil laudantium, facilis aliquam sunt. Ab ducimus quaerat enim consectetur ipsum mollitia eveniet."
+        },
+        {
+            "title": "Personal",
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odio accusamus velit, fuga dignissimos iste sit alias nihil laudantium, facilis aliquam sunt. Ab ducimus quaerat enim consectetur ipsum mollitia eveniet."
+        }
+    ],
+    "Stats": [
+        {
+            "YR": "2023",
+            "LEA": "2.12",
+            "Team": "1.02",
+            "SAL(K)": "3.19", 
+            "G": "2.1",
+            "AB": ".098",
+            "R": "1.2",
+            "H": "167",
+            "2B": "1.3",
+            "3B": "2.6",
+            "HR": "29",
+            "RBI": "2.37",
+            "SB": "1.9",
+            "CS": "2.9",
+            "BB": "0.98",
+            "SO": "2.0",
+            "OBP": "1.98",
+            "SLG": "2.67",
+            "ABG": "1.76"
+        },
+        {
+            "YR": "2022",
+            "LEA": "2.12",
+            "Team": "1.02",
+            "SAL(K)": "3.19", 
+            "G": "2.1",
+            "AB": ".098",
+            "R": "1.2",
+            "H": "167",
+            "2B": "1.3",
+            "3B": "2.6",
+            "HR": "29",
+            "RBI": "2.37",
+            "SB": "1.9",
+            "CS": "2.9",
+            "BB": "0.98",
+            "SO": "2.0",
+            "OBP": "1.98",
+            "SLG": "2.67",
+            "ABG": "1.76"
+        },
+        {
+            "YR": "2021",
+            "LEA": "2.12",
+            "Team": "1.02",
+            "SAL(K)": "3.19", 
+            "G": "2.1",
+            "AB": ".098",
+            "R": "1.2",
+            "H": "167",
+            "2B": "1.3",
+            "3B": "2.6",
+            "HR": "29",
+            "RBI": "2.37",
+            "SB": "1.9",
+            "CS": "2.9",
+            "BB": "0.98",
+            "SO": "2.0",
+            "OBP": "1.98",
+            "SLG": "2.67",
+            "ABG": "1.76"
+        },
+        {
+            "YR": "2020",
+            "LEA": "2.12",
+            "Team": "1.02",
+            "SAL(K)": "3.19", 
+            "G": "2.1",
+            "AB": ".098",
+            "R": "1.2",
+            "H": "167",
+            "2B": "1.3",
+            "3B": "2.6",
+            "HR": "29",
+            "RBI": "2.37",
+            "SB": "1.9",
+            "CS": "2.9",
+            "BB": "0.98",
+            "SO": "2.0",
+            "OBP": "1.98",
+            "SLG": "2.67",
+            "ABG": "1.76"
+        },
+        {
+            "YR": "2019",
+            "LEA": "2.12",
+            "Team": "1.02",
+            "SAL(K)": "3.19", 
+            "G": "2.1",
+            "AB": ".098",
+            "R": "1.2",
+            "H": "167",
+            "2B": "1.3",
+            "3B": "2.6",
+            "HR": "29",
+            "RBI": "2.37",
+            "SB": "1.9",
+            "CS": "2.9",
+            "BB": "0.98",
+            "SO": "2.0",
+            "OBP": "1.98",
+            "SLG": "2.67",
+            "ABG": "1.76"
+        }
+    ]
 }
