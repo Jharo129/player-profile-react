@@ -160,7 +160,7 @@ button:focus-visible {
   white-space: nowrap;
 }
 .player-summary .left {
-  
+
 }
 .player-summary .middle {
   
@@ -168,9 +168,10 @@ button:focus-visible {
 .player-summary .right {
   
 }
-.player-info-section .bottom {
+.bottom {
+  text-align: center;
   display: flex;
-  
+  width: 100%;
 }
 .player-summary img {
   width: 200px;
