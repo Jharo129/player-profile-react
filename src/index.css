@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -94,7 +94,7 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
 
 .header {
   overflow: hidden;
@@ -136,51 +136,61 @@ button:focus-visible {
 .header a:hover {
   color: cyan;
 }
-.header-center {
-  float: center;
-}
+
 .container {
-  display: flex;
+  overflow:scroll;
+  /* display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-start; */
 }
-.player-info-section {
+.player-info {
   background-image: linear-gradient(to right, rgb(186, 218, 241) , rgb(0, 174, 255));
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+  /* display: flex;
+  flex-direction: column; */
+  /* width: 100%; */
+  overflow:inherit;
 }
-.player-summary {
+.player-info h1 {
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Cabin";
+  float: center;
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+  line-height: 25px;
+  border-radius: 4px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-right: 80px;
+  margin-left: 80px;
+  display: block;
+}
+.general {
+  text-align: center;
   display: flex;
   flex-direction: row;
   flex:1 1 0;
-  width: 80%;
-  justify-content: space-between;
+  /* width: 80%; */
+  justify-content:space-evenly;
   padding: 10px;
   white-space: nowrap;
 }
-.player-summary .left {
-  
-}
-.player-summary .middle {
-  
-}
-.player-summary .right {
-  
-}
-.player-info-section .bottom {
+.player-info .stats {
+  text-align: center;
   display: flex;
-  
+  width: 100%;
+  margin: left 10px;
 }
-.player-summary img {
+.general img {
   width: 200px;
-  border: 1px solid #f1f1f1;
+  border: .5px solid #f1f1f1;
   border-radius: 4px;
-  padding: 5px;
+  padding: 3px;
   background-color: #f1f1f1;
   margin-bottom: 15px;
-  margin-left: 80px;
-  /* margin-right: 15px; */
+  margin-left: 10px;
 }
 table, th, td {
   border-collapse: collapse;
@@ -188,20 +198,10 @@ table, th, td {
 tr:nth-child(even) {
   background-color: lightgrey;
 }
-.Personal {
+.playerBio {
   background-image: linear-gradient(to right, lightgray , gray);
-}
-.Batting {
-  background-image: linear-gradient(to right, rgb(186, 218, 241) , rgb(0, 174, 255));
-}
-.Fielding {
-  background-image: linear-gradient(to right, lightgray , gray);
-}
-.Running {
-  background-color: rgb(69, 4, 30);
-}
-.Career-Injury-Report {
-  background-image: linear-gradient(to right, lightgray , gray);
+  padding: 46px 0 0 0;
+  margin-bottom: 30px;
 }
 .footer {
   overflow: hidden;
@@ -209,6 +209,7 @@ tr:nth-child(even) {
   text-align: center;
   width: 100%;
   height: 200px;
+  padding-top: 4%;
 }
 .footer a {
   float: center;
@@ -221,10 +222,6 @@ tr:nth-child(even) {
 }
 .footer a:hover {
   color: cyan;
-}
-.footer-center {
-  float: center;
-  padding-top: 5%;
 }
 
 
